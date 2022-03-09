@@ -54,7 +54,7 @@ level1-image-classification-level1-recsys-09
 python train.py --model 'Ensemble' --TTA True --name 'final model' --epoch 3
 ```
 
-[제목 없음](https://www.notion.so/51100ccc5bd14907b0359b74dbcca3d7)
+![image](https://user-images.githubusercontent.com/44939208/157379480-737623fe-8237-47bc-8c4a-03897a8fd3e9.png)
 
 ## 6. 실행 결과
 
@@ -64,6 +64,6 @@ python train.py --model 'Ensemble' --TTA True --name 'final model' --epoch 3
 
 ## 7. 참고자료
 
-[EfficientNet-PyTorch]([https://github.com/lukemelas/EfficientNet-PyTorch](https://github.com/lukemelas/EfficientNet-PyTorch))
+[EfficientNet-PyTorch](https://github.com/lukemelas/EfficientNet-PyTorch](https://github.com/lukemelas/EfficientNet-PyTorch)
 
-[GoogLeNet]([https://pytorch.org/vision/stable/_modules/torchvision/models/googlenet.html](https://pytorch.org/vision/stable/_modules/torchvision/models/googlenet.html))
+[GoogLeNet](https://pytorch.org/vision/stable/_modules/torchvision/models/googlenet.html)
