@@ -67,3 +67,11 @@ python train.py --model 'Ensemble' --TTA True --name 'final model' --epoch 3
 [EfficientNet-PyTorch](https://github.com/lukemelas/EfficientNet-PyTorch)
 
 [GoogLeNet](https://pytorch.org/vision/stable/_modules/torchvision/models/googlenet.html)
+
+## 8. contributor
+- 김동우
+- 김연요
+- 김은선
+- 김혜지
+- 이아현
+
