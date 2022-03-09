@@ -6,11 +6,13 @@
 - 마스크 착용 여부, 성별, 나이 총 세가지 기준에 따라 총 18개의 class로 구분하는 모델
 
 
+
 ## 👋 팀원 소개
 
-|                                                  [김동우](https://github.com/dongwoo338)                                                   |                                                                          [김연요](https://github.com/arkdusdyk)                                                                           |                                                 [김은선](https://github.com/sun1187)                                                  |                                                                        [김혜지](https://github.com/h-y-e-j-i)                                                                         |                                                                         [이아현](https://github.com/ahyeon0508)                                                                         |
+|                                                  [김혜지](https://github.com/h-y-e-j-i)                                                   |                                                                          [이아현](https://github.com/ahyeon0508)                                                                           |                                                 [김동우](https://github.com/dongwoo338)                                                  |                                                                        [김은선](https://github.com/sun1187)                                                                         |                                                                         [김연요](https://github.com/arkdusdyk)                                                                         |
 | :-------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------: |
-| [![Avatar](https://user-images.githubusercontent.com/69205130/157381094-72f2de15-491e-4a4c-9954-701bf924d41b.jpg)](https://github.com/dongwoo338) | [![Avatar](https://user-images.githubusercontent.com/69205130/157381074-7d91c0e9-756a-4d23-954f-aa43e0688b30.png)](https://github.com/arkdusdyk) | [![Avatar](https://user-images.githubusercontent.com/69205130/157381102-fedbcca1-b9e8-47d6-aba4-4ae3ac182a6f.png)](https://github.com/sun1187) | [![Avatar](https://user-images.githubusercontent.com/69205130/157381112-6343be93-9a26-4778-be7d-cc038f32b459.png)](https://github.com/h-y-e-j-i) | [![Avatar](https://user-images.githubusercontent.com/69205130/157381123-15a8abd6-3dac-4dc1-9aae-d61e94cd1d04.png)](https://github.com/ahyeon0508) |
+| [![Avatar](https://user-images.githubusercontent.com/69205130/157381112-6343be93-9a26-4778-be7d-cc038f32b459.png)](https://github.com/h-y-e-j-i) | [![Avatar](https://user-images.githubusercontent.com/69205130/157381123-15a8abd6-3dac-4dc1-9aae-d61e94cd1d04.png)](https://github.com/ahyeon0508) | [![Avatar](https://user-images.githubusercontent.com/69205130/157381094-72f2de15-491e-4a4c-9954-701bf924d41b.jpg)](https://github.com/dongwoo338) | [![Avatar](https://user-images.githubusercontent.com/69205130/157381102-fedbcca1-b9e8-47d6-aba4-4ae3ac182a6f.png)](https://github.com/sun1187) | [![Avatar](https://user-images.githubusercontent.com/69205130/157381074-7d91c0e9-756a-4d23-954f-aa43e0688b30.png)](https://github.com/arkdusdyk) |
+
 
 
 ## 🔨 Installation
@@ -28,6 +30,8 @@
 $ pip install -r $ROOT/level1-image-classification-level1-recsys-09/requirements.txt
 ```
 
+
+
 ## ✍ Function Description
 
 `model.py`: EfficientNet-b4와  GoogLeNet을 Ensemble하여 모델링
@@ -37,6 +41,7 @@ $ pip install -r $ROOT/level1-image-classification-level1-recsys-09/requirements
 `loss.py`: cross entropy, f1 score, arcface를 이용해 loss 값을 계산
 
 `train.py`: model을 사용자가 지정한 parameter에 따라 실행하여 training
+
 
 ## 🏢 Structure
 
@@ -56,6 +61,7 @@ level1-image-classification-level1-recsys-09
     └── train.py
 ```
 
+
 ## ⚙️ Training 명령어
 
 ```python
@@ -64,11 +70,13 @@ python train.py --model 'Ensemble' --TTA True --name 'final model' --epoch 3
 
 ![image](https://user-images.githubusercontent.com/44939208/157379480-737623fe-8237-47bc-8c4a-03897a8fd3e9.png)
 
+
 ## 🖼️ 실행 결과
 
 | 모델명 | F1-Score | Accuracy | 최종 순위 |
 | --- | --- | --- | --- |
 | EfficientNet-b4 + GoogLeNet | 0.7269 | 77.3016 | private 35등 |
+
 
 ## 📜 참고자료
 
