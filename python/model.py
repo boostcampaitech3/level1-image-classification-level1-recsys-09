@@ -3,19 +3,6 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-from utils import (
-    round_filters,
-    round_repeats,
-    drop_connect,
-    get_same_padding_conv2d,
-    get_model_params,
-    efficientnet_params,
-    load_pretrained_weights,
-    Swish,
-    MemoryEfficientSwish,
-    calculate_output_image_size
-)
-
 num_classes = 18
 
 class BaseModel(nn.Module):
