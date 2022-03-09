@@ -64,6 +64,6 @@ python train.py --model 'Ensemble' --TTA True --name 'final model' --epoch 3
 
 ## 7. 참고자료
 
-[EfficientNet-PyTorch](https://github.com/lukemelas/EfficientNet-PyTorch](https://github.com/lukemelas/EfficientNet-PyTorch)
+[EfficientNet-PyTorch](https://github.com/lukemelas/EfficientNet-PyTorch)
 
 [GoogLeNet](https://pytorch.org/vision/stable/_modules/torchvision/models/googlenet.html)
