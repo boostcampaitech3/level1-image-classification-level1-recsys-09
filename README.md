@@ -5,6 +5,14 @@
 - COVID-19 Pandemic 상황 속 마스크 착용 유무 판단 시스템 구축
 - 마스크 착용 여부, 성별, 나이 총 세가지 기준에 따라 총 18개의 class로 구분하는 모델
 
+
+## 👋 팀원 소개
+
+|                                                  [김동우](https://github.com/dongwoo338)                                                   |                                                                          [김연요](https://github.com/arkdusdyk)                                                                           |                                                 [김은선](https://github.com/sun1187)                                                  |                                                                        [김혜지](https://github.com/h-y-e-j-i)                                                                         |                                                                         [이아현](https://github.com/ahyeon0508)                                                                         |
+| :-------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------: |
+| [![Avatar](https://avatars.githubusercontent.com/u/73115427?v=4)](https://github.com/dongwoo338) | [![Avatar](https://avatars.githubusercontent.com/u/69205130?s=400&u=a14d779da6a9023a45e60e44072436d356a9461c&v=4)](https://github.com/arkdusdyk) | [![Avatar](https://avatars.githubusercontent.com/u/70509258?v=4)](https://github.com/sun1187) | [![Avatar](https://avatars.githubusercontent.com/u/58590260?v=4)](https://github.com/h-y-e-j-i) | [![Avatar](https://avatars.githubusercontent.com/u/44939208?v=4)](https://github.com/ahyeon0508) |
+
+
 ## 2. Installation
 
 - torch == 1.6.0
@@ -67,11 +75,4 @@ python train.py --model 'Ensemble' --TTA True --name 'final model' --epoch 3
 [EfficientNet-PyTorch](https://github.com/lukemelas/EfficientNet-PyTorch)
 
 [GoogLeNet](https://pytorch.org/vision/stable/_modules/torchvision/models/googlenet.html)
-
-## 8. contributor
-- 김동우
-- 김연요
-- 김은선
-- 김혜지
-- 이아현
 
