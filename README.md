@@ -64,6 +64,26 @@ python train.py --model 'Ensemble' --TTA True --name 'final model' --epoch 3
 
 ![image](https://user-images.githubusercontent.com/44939208/157379480-737623fe-8237-47bc-8c4a-03897a8fd3e9.png)
 
+|명령어|타입|설명|기본값|
+|------|---|---|---|
+|--seed|int|random seed|42|
+|--epochs|int|number of epochs to train|1|
+|--dataset|str|dataset augmentation type|MaskBaseDataset|
+|--augmentation|str|data augmentation type|CustomAugmentation|
+|--resize|int|resize size for image when training|[128, 96]|
+|--batch_size|int|input batch size for training|64|
+|valid_batch_size|int|input batch size for validing|1000|
+|--model|str|model type|‘BaseModel’|
+|--optimizer|str|optimizer type|‘AdamW’|
+|--lr|float|learning rate|1.00E-03|
+|--val_ratio|float|ratio for validaton|0.2|
+|--criterion|str|criterion type|‘arcface’|
+|--lr_decay_step|int|learning rate scheduler deacy step|20|
+|--log_interval|int|how many batches to wait before logging training status|20|
+|--name|str|model save at {SM_MODEL_DIR}/{name}|‘exp’|
+|--KFold|bool|train using StratifiedKFold|FALSE|
+|--TTA|bool|train using TTA|FALSE|
+
 ## 6. 실행 결과
 
 | 모델명 | F1-Score | Accuracy | 최종 순위 |
